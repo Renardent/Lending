@@ -1,0 +1,106 @@
+
+@media  screen and (max-width: 980px)  {
+    html {
+      font-size: 12pt;  
+    }
+
+    .header {
+        line-height: 44px;
+        height: 44px;
+    }
+
+    .banner {
+        height: auto !important;
+        padding: 4rem 2rem 4rem 2rem;
+    }
+
+    .banner h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .features-wrapper {
+        padding: 4rem 0 2rem 0;
+    }
+
+    .card-wrapper {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 2fr));
+    }
+
+    .feature-card {
+        width:calc(100% + 1rem);
+        padding-bottom: 1.4rem;
+    }
+
+    .feature-card *{
+        padding: 1rem;
+    }
+
+    .parallax-wrapper {
+        padding: 3rem 0 1rem 0;
+        height: calc(100% + 3rem);
+    }
+
+    .parallax-wrapper h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media  screen and (max-width: 500px)  {
+    html {
+      font-size: 11pt; 
+      min-width: 320px;
+    }
+
+    .header {
+        min-width: 20rem;
+    }
+
+    .banner {
+        height: auto !important;
+        padding: 4rem 2rem 4rem 2rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+    .banner h1 {
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .features-wrapper {
+        padding:2rem 0 0.5rem 0;
+        max-width: calc(100%-3rem);
+    }
+
+    .card-wrapper {
+        margin-top: 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(18rem, 1fr));
+    }
+
+    .feature-card {
+        width:calc(100% + 1rem);
+        padding-bottom: 1rem;
+    }
+
+    .feature-card *{
+        padding: 1rem;
+    }
+
+    .parallax-wrapper {
+        padding: 3rem 0 1rem 0;
+        height: calc(100% + 5rem);
+    }
+
+    .parallax-wrapper h2 {
+        font-size: 1.5rem;
+    }
+
+}
